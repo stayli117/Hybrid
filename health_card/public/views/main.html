@@ -1,0 +1,14 @@
+
+ <div class=" main-page container-fluid" style="padding-top: 15px;">
+    <div class="col-xs-6 box" ng-repeat="item in list">
+        <div  ng-click="go(item.url)" class=" col-xs-12 text-center">
+            <div class="item-logo" style="padding:10px;">
+                <img style="width:100%;height: 100%;" ng-src="{{item.imgUrl}}"/>
+            </div>
+            <div class="item-name">
+                <span ng-bind="item.title"></span>
+            </div>
+        </div>
+    </div>
+
+</div>

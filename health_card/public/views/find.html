@@ -1,0 +1,26 @@
+<ul class="find-page container-fluid">
+    <li class="row" style="height: 100px;" ng-repeat="item in list">
+        <div ng-click="go(item.url)" class="col-xs-1">
+            <img class="list-logo" src="../images/ic_acc.png" height="22px" alt=""/>
+        </div>
+        <div ng-click="go(item.url)" class="col-xs-8">
+            <div class="list-name">
+                <a alt="{{item.name}}" ng-bind="item.name"></a>
+            </div>
+            <div>地址:
+                <span ng-bind="item.address"></span>
+            </div>
+            <div>服务时间:
+                <span ng-bind="item.workTimeRange"></span>
+            </div>
+            <div>门诊电话:
+                <span ng-bind="item.tel"></span>
+            </div>
+        </div>
+        <div class="col-xs-3">
+            <a class="text-center detail">了解详情</a>
+        </div>
+    </li>
+
+</ul>
+<div class="bt"></div>

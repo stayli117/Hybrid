@@ -1,0 +1,61 @@
+.find-page {
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+ul {
+    list-style-type: none;
+    padding-bottom: 90px;
+}
+
+li {
+    /* padding: 10px; */
+    background: #FFFFFF;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 36px 0 #E8E8E8;
+}
+
+.list-logo {
+    position: absolute;
+    right: 0;
+}
+
+.bt {
+    height: 200px;
+}
+.list-name {
+    font-family: PingFangSC-Medium;
+    font-size: 16px;
+    color: #4C4C4C;
+}
+
+li>div {
+    padding: 10px 5px;
+    height: 100%;
+
+
+}
+
+li>div>div {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #8C8C8C
+}
+
+.detail {
+    position: absolute;
+    bottom: 40px;
+    padding: 2px 5px;
+    border: 1px solid #7EBF36;
+    border-radius: 8px;
+    font-family: PingFangSC-Rgular;
+    font-size: 14px;
+    color: #7EBF36;
+    box-sizing: content-box;
+
+}
+

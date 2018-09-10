@@ -1,0 +1,30 @@
+﻿
+<div class="btn-primary js-btn0" >
+    ajax get测试
+</div>
+<div class="btn-primary js-btn1" >
+    ajax post测试
+</div>
+<pre>
+<code>
+_.requestHybrid({
+    tagname: 'post',
+    param: {
+        url: "http://172.16.0.167:3456/post_test",
+        param: {a: 1, b: 2}
+    },
+
+    callback: function (data) {
+        scope.hideLoading();
+        scope.$('.js-content').html(JSON.stringify(data));
+    }
+});
+</code>
+</pre>
+
+<div class="js-content">
+
+</div>
+
+
+

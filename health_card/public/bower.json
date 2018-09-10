@@ -1,0 +1,20 @@
+{
+  "name": "public",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zepto": "^1.2.0",
+    "angular": "angularjs#^1.6.9",
+    "normalize.css": "^8.0.0",
+    "angular-route": "^1.6.9"
+  }
+}

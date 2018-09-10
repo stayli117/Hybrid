@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+}
+
+a,
+a:focus,
+a:active,
+a:link,
+a:hover,
+a:visited {
+    color: inherit;
+    text-decoration: inherit;
+}
